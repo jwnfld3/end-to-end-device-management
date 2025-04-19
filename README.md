@@ -34,7 +34,15 @@ This lab walks through the complete process of setting up modern device manageme
 
 1. Navigate to [https://entra.microsoft.com](https://entra.microsoft.com)  
 2. Go to **Devices** > **Device settings**
+
+![image](https://github.com/user-attachments/assets/7cb6726c-4b67-485e-99fb-2d2c1cdfd0bd)
+
 3. Set **Users may join devices to Azure AD** to **All** or a selected group
+4. Configure **Additional local administrators on Azure AD joined devices** if needed
+
+![image](https://github.com/user-attachments/assets/8d759e25-ec5a-48db-8c54-1c89d3ed52b9)
+
+
 4. Configure **Additional local administrators on Azure AD joined devices** if needed
 
 ---
