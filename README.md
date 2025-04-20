@@ -144,12 +144,24 @@ This lab walks through the complete process of setting up modern device manageme
 
 **Definition:** Update rings manage the deployment of Windows updates and patches.
 
-1. Navigate to **Devices** > **Windows** > **Update rings for Windows 10 and later**
+1. Navigate to **Devices** > **Windows Updates** > **Update rings** > **Create update ring policy**
+
+![image](https://github.com/user-attachments/assets/9caec93c-20e1-43a2-b698-d21b1b8790f7)
+![image](https://github.com/user-attachments/assets/dc09648b-694d-4282-89c0-456d370a91f0)
+
 2. Create a profile:
    - Name: `Patch-Ring-Standard`
    - Set installation behavior and active hours
    - Configure restart settings
-3. Assign to the correct device group
+
+![image](https://github.com/user-attachments/assets/de3bb9f9-032f-4e5a-bed9-7b838e96c37c)
+![image](https://github.com/user-attachments/assets/ed523d39-819d-4592-a9a3-93e59c076dd0)
+![image](https://github.com/user-attachments/assets/d370e1cc-1f22-468e-b2b1-e36c6537f6c9)
+
+
+4. Assign to the correct device group
+![image](https://github.com/user-attachments/assets/4a777351-19ac-46e9-b59b-61d330831211)
+![image](https://github.com/user-attachments/assets/0f4ff3c6-2d76-4461-b45f-ec6261d138de)
 
 ---
 
