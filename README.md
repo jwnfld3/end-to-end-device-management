@@ -49,7 +49,12 @@ This lab walks through the complete process of setting up modern device manageme
 **Definition:** Enrollment profiles configure the experience users get when enrolling their devices into Intune.
 
 1. Navigate to [https://endpoint.microsoft.com](https://endpoint.microsoft.com)  
-2. Go to **Devices** > **Windows** > **Windows enrollment** > **Deployment Profiles**
+2. Go to **Devices** > **Enrollment** > **Deployment Profiles**
+
+![image](https://github.com/user-attachments/assets/168a2ee7-9264-4105-91e5-da468963b0aa)
+
+
+
 3. Create a **Windows Autopilot profile**
    - Name: `Windows Autopilot Standard`
    - Join to Azure AD: **Azure AD joined**
