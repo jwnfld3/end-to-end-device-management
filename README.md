@@ -122,6 +122,11 @@ This lab walks through the complete process of setting up modern device manageme
 
 1. Go to **Endpoint security** > **Compliance policies** > **Create Policy**
 2. Platform: **Windows 10 and later**
+
+![image](https://github.com/user-attachments/assets/dd12aae6-a227-41ac-afe1-b863f6d2766d)
+![image](https://github.com/user-attachments/assets/6cfe3604-c884-4bbd-821b-ebcc469df5d2)
+
+
 3. Settings:
    - Require BitLocker: **Yes**
    - Minimum OS version: e.g., `10.0.19044`
