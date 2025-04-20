@@ -185,19 +185,7 @@ This lab walks through the complete process of setting up modern device manageme
 
 ---
 
-### 🔹 **Step 6: Set Up Remediation via Proactive Remediation Scripts**
-
-**Definition:** Proactive Remediation uses scripts to automatically detect and fix issues before they impact the user.
-
-1. Navigate to **Reports** > **Endpoint analytics** > **Proactive remediations**
-2. Create a script package:
-   - Detection script: Checks BitLocker status
-   - Remediation script: Enables BitLocker if disabled
-3. Assign the script package to a device group and schedule execution
-
----
-
-### 🔹 **Step 7: Integrate Microsoft Defender for Endpoint**
+### 🔹 **Step 6: Integrate Microsoft Defender for Endpoint**
 
 **Definition:** This integration brings in real-time threat and device risk scoring from Defender into Intune.
 
@@ -210,7 +198,7 @@ This lab walks through the complete process of setting up modern device manageme
 
 ---
 
-### 🔹 **Step 8: Configure Conditional Access Based on Device Risk**
+### 🔹 **Step 7: Configure Conditional Access Based on Device Risk**
 
 **Definition:** Conditional Access can block or allow access based on real-time risk scores from Defender.
 
@@ -224,7 +212,7 @@ This lab walks through the complete process of setting up modern device manageme
 
 ---
 
-### 🔹 **Step 9: Monitor Device Risk & Take Action**
+### 🔹 **Step 8: Monitor Device Risk & Take Action**
 
 1. Open **Microsoft 365 Defender** > **Endpoint** > **Device inventory**
 2. Filter devices by **Risk Level**
@@ -233,7 +221,7 @@ This lab walks through the complete process of setting up modern device manageme
 
 ---
 
-### 🔹 **Step 10: Protect the Tenant with Risk Score Recommendations**
+### 🔹 **Step 9: Protect the Tenant with Risk Score Recommendations**
 
 **Definition:** Automatically enforce best practices using Microsoft Defender recommendations.
 
