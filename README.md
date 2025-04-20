@@ -297,11 +297,16 @@ Yes, Microsoft Defender Antivirus can detect and block many forms of malicious o
 **Definition:** Automatically enforce best practices using Microsoft Defender recommendations.
 
 1. Open **Microsoft 365 Defender** > **Recommendations**
+
 2. Review items like:
-   - "Ensure multifactor authentication is enabled for all users in administrative roles"
-   - "Block Office applications from creating executable content"
-   - "Devices should have vulnerability findings resolved"
-   - "Enable Microsoft Defender Antivirus email scanning"
+
+   - **Ensure multifactor authentication is enabled for all users in administrative roles**
+
+   - **Block Office applications from creating executable content**
+
+   - **Devices should have vulnerability findings resolved**
+
+   - **Enable Microsoft Defender Antivirus email scanning**
 
 3. Select each recommendation and choose **Remediate** or deploy through Intune
 
