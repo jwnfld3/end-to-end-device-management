@@ -112,6 +112,7 @@ This lab walks through the complete process of setting up modern device manageme
 
 5. Assign the profile to the appropriate device group
 ![image](https://github.com/user-attachments/assets/47a0b58f-43f1-44f4-ad2f-360d70795c44)
+![image](https://github.com/user-attachments/assets/895c804e-6efc-4cd8-831a-205ec2c277cd)
 
 ---
 
