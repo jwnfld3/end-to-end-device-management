@@ -56,11 +56,62 @@ This lab walks through the complete process of setting up modern device manageme
 
 
 3. Create a **Windows Autopilot profile**
+
+![image](https://github.com/user-attachments/assets/2dfcdc47-97ac-47f5-b7e9-cd42c9d783e8)
+
+
    - Name: `Windows Autopilot Standard`
-   - Join to Azure AD: **Azure AD joined**
-   - Assign a device naming convention
+   
+   ![image](https://github.com/user-attachments/assets/5eeec53e-3082-457d-8535-0fcc5de26a70)
+
    - Set **User-driven** mode
-4. Assign the profile to the appropriate device group
+   - Join to Entra ID as: **Azure AD joined**
+   - Assign a device naming convention
+
+## Why Unique Device Names Matter
+
+### 1. Avoid Naming Conflicts
+- Duplicate device names can cause issues during registration in Entra ID (Azure AD), Intune, or traditional Active Directory.
+- Unique names help prevent conflicts and ensure accurate policy application.
+
+### 2. Improve Device Management & Searchability
+- Unique and structured names make it easier for administrators to locate, filter, and manage devices in Intune.
+- Clear naming conventions support faster identification of devices based on users, locations, or departments.
+
+### 3. Support Compliance & Auditability
+- Many organizations require device tracking for compliance, security, and audits.
+- Unique names assist with logging, asset inventory, and incident response processes.
+
+### 4. Enable Automation & Scripting
+- Scripts for automation, patching, or monitoring often rely on consistent naming.
+- Unique names prevent errors in automated processes.
+
+## Device Naming Rules and Constraints
+
+| Rule                            | Reason                                                                 |
+|---------------------------------|------------------------------------------------------------------------|
+| Maximum of 15 characters        | Ensures compatibility with legacy NetBIOS naming requirements.        |
+| Use only letters, numbers, and hyphens | Complies with Windows naming and DNS standards.                     |
+| Cannot consist of only numbers  | Prevents conflicts with numeric-only identifiers.                     |
+| No blank spaces                 | Avoids issues in scripts, parsing, and legacy system compatibility.   |
+
+## Using Naming Macros in Intune
+
+| Macro         | Description                                                                             |
+|---------------|-----------------------------------------------------------------------------------------|
+| `%SERIAL%`    | Inserts the device's hardware serial number for unique, hardware-based naming.          |
+| `%RAND:x%`    | Inserts a random alphanumeric string of `x` characters to ensure unique device names.   |
+
+### Examples
+
+- `LAPTOP-%SERIAL%` → Generates names like `LAPTOP-ABC12345`
+- `DESKTOP-%RAND5%` → Generates names like `DESKTOP-K7X2B`
+     
+  ![image](https://github.com/user-attachments/assets/caefd5ae-e10a-4fc3-bf64-dadee38706ce)
+
+
+5. Assign the profile to the appropriate device group
+![image](https://github.com/user-attachments/assets/47a0b58f-43f1-44f4-ad2f-360d70795c44)
 
 ---
 
