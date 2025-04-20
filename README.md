@@ -233,11 +233,13 @@ Once assigned, the script will execute on devices in the targeted group. Upon su
 
 - Devices will begin reporting to **Microsoft Defender for Endpoint**
 - Visibility will appear in **Microsoft 365 Defender** under:  
-  **Endpoints** > **Device inventory**
+  **Assets** > **Devices**
 
+![image](https://github.com/user-attachments/assets/9e81cc87-05fd-448c-a3a9-22b39d43e29f)
+![image](https://github.com/user-attachments/assets/da90f846-2dc4-4809-98e0-43e856fd314a)
+![image](https://github.com/user-attachments/assets/2ac61d82-f5d7-432f-af9f-69f9c5aa1a39)
 
-5. In Intune, navigate to **Endpoint security** > **Microsoft Defender Antivirus**
-6. Ensure protection settings are enabled (real-time, cloud, sample submission)
+Following successful onboarding of devices to Microsoft Defender for Endpoint via Intune script deployment, a security alert was generated in Microsoft Defender and an automated email notification was sent to the designated administrator. If the alert corresponds to a confirmed threat, remediation actions can be initiated immediately, as demonstrated in the images below.
 
 ---
 
