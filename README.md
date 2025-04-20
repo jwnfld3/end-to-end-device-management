@@ -130,9 +130,13 @@ This lab walks through the complete process of setting up modern device manageme
 3. Settings:
    - Require BitLocker: **Yes**
    - Minimum OS version: e.g., `10.0.19044`
-   - Require Antivirus: **On**
-   - Device health check: Require no TPM errors
-4. Assign to the appropriate user or device group
+   - Assign to the appropriate user or device group
+
+
+![image](https://github.com/user-attachments/assets/e8919d71-3734-45c0-9e1b-f313d85ecd19)
+![image](https://github.com/user-attachments/assets/394f1f4c-98bb-47ff-9253-7efb3f1c58b4)
+![image](https://github.com/user-attachments/assets/c95ba074-0ec6-4d87-9533-f02fd02de68c)
+![image](https://github.com/user-attachments/assets/9d0265c1-5590-412f-b11c-1f84e31ccd9a)
 
 ---
 
