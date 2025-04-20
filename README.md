@@ -205,16 +205,27 @@ This lab walks through the complete process of setting up modern device manageme
 In the Intune admin center: [https://endpoint.microsoft.com](https://endpoint.microsoft.com)
 
 1. Navigate to:  
-   **Devices** > **Windows** > **Scripts**
-
+   **Devices** > **Windows** > **Scripts and Remediations** > **Platform Scripts**
 2. Click **+ Add**
 
-3. **Script type**: Select **PowerShell**
 
-4. Upload the `.cmd` file from the onboarding package  
-   > Although it's a `.cmd` file, it functions like a PowerShell script for deployment.
+![image](https://github.com/user-attachments/assets/9fe17900-e2ea-481d-a427-084f91466aa2)
+![image](https://github.com/user-attachments/assets/81b19af3-a3bd-4382-8a02-851ce867e6e3)
 
-5. Assign the script to the device group used in the lab.
+
+4. Enter a Name for the **Add PowerShell script** `Microsoft Defender Antivirus Policy`
+
+![image](https://github.com/user-attachments/assets/84b477b3-cc8b-4769-af58-3e9eda959c1d)
+
+
+5. The `.cmd` file extension needs to be changed to `.ps1` or Intune will not accept the file for deployment from the onboarding package.
+
+![image](https://github.com/user-attachments/assets/effa0d7e-4ccd-4b8b-b049-7a49e084af38)
+
+6. Assign the script to the device group used in the lab.
+
+![image](https://github.com/user-attachments/assets/1058a6c1-7302-494c-9147-ae4fe36fd57d)
+![image](https://github.com/user-attachments/assets/ec85e1a5-fa86-42aa-b40d-cd2176cb5257)
 
 ---
 
