@@ -268,6 +268,27 @@ Following successful onboarding of devices to Microsoft Defender for Endpoint vi
 4. Take action (e.g., isolate device, trigger automated investigation)
 
 ![image](https://github.com/user-attachments/assets/f5e02a68-d190-48ae-9108-0888b4afb841)
+![image](https://github.com/user-attachments/assets/83664655-2011-4553-95fc-a830e0ce6e8a)
+![image](https://github.com/user-attachments/assets/386a0938-f6d7-47b7-965a-ef56f989b421)
+
+
+A simulated threat that would be detected as a suspicious PowerShell command typically falls under the "Suspicious PowerShell behavior" or "Suspicious script detected" alert categories.
+
+## Is the Microsoft Defender Antivirus Scan Appropriate for Suspicious PowerShell Scenario?
+
+Yes, Microsoft Defender Antivirus can detect and block many forms of malicious or suspicious PowerShell activity, especially when the **Real-Time Protection**, **Cloud Protection**, and **Behavioral Analysis** features are enabled. However, it’s not the only layer involved.
+
+## What Defender Antivirus Does Cover in This Scenario
+
+- Scans the script file (e.g., `.ps1`) for known signatures  
+- Detects known malicious commands or behavior patterns  
+- Monitors real-time execution of PowerShell using behavioral heuristics  
+- Triggers alerts like:
+  - *Suspicious PowerShell command line*
+  - *Behavior of known malware families (e.g., Emotet, TrickBot)*
+- Works with Windows Defender SmartScreen, AMSI, and Microsoft Defender for Endpoint to provide deeper visibility  
+
+![image](https://github.com/user-attachments/assets/5b98180a-8752-48a9-b244-39b725705060)
 
 ---
 
