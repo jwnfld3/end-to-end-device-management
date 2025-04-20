@@ -169,7 +169,11 @@ This lab walks through the complete process of setting up modern device manageme
 
 **Definition:** This step checks which devices are compliant and which are not, using dashboards.
 
-1. Navigate to **Devices** > **Monitor** > **Compliance status**
+1. Navigate to **Devices** > **Windows**
+
+![image](https://github.com/user-attachments/assets/4ed8c3c8-7891-42a2-8974-eea819a09f1a)
+![image](https://github.com/user-attachments/assets/64eb9f03-164a-47c2-b4e0-372b1a48a92f)
+
 2. Review reports for:
    - Compliant / Non-compliant devices
    - Reasons for non-compliance
