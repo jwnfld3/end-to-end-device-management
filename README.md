@@ -300,13 +300,15 @@ Yes, Microsoft Defender Antivirus can detect and block many forms of malicious o
 
 2. Review items like:
 
-   - **Ensure multifactor authentication is enabled for all users in administrative roles**
+   - **Ensure multifactor authentication is enabled for all users in administrative roles** - Requiring multifactor authentication (MFA) for administrative roles makes it harder for attackers to access accounts. Administrative roles have higher permissions than typical users. If any of those accounts are compromised, your entire organization is exposed.
+ 
+   - **Block Office applications from creating executable content** - Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software.
+This ASR rule prevents Office apps, including Word, Excel, and PowerPoint, from creating executable content. This security control is only applicable for machines with Windows 10, version 1709 or later.
+Creating executable content is a typical behavior where malware uses Office as a vector to break out of Office and save malicious code components to disk, where they persist and survive a computer reboot.
 
-   - **Block Office applications from creating executable content**
+   - **Devices should have vulnerability findings resolved** - Determines the presence of vulnerabilities on one or more devices. These vulnerabilities can be used by attackers to facilitate lateral movement within the organization, and gaining access to sensitive data, administrative controls, or other restricted resources.
 
-   - **Devices should have vulnerability findings resolved**
-
-   - **Enable Microsoft Defender Antivirus email scanning**
+   - **Enable Microsoft Defender Antivirus email scanning** - Determines whether Microsoft Defender Antivirus analyze the mail bodies and attachments and scans them for malicious content. Not scanning incoming emails and attachments could potentially enable attackers to deliver malicious content and attchments into the organization
 
 3. Select each recommendation and choose **Remediate** or deploy through Intune
 
