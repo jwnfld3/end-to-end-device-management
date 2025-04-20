@@ -255,6 +255,9 @@ Following successful onboarding of devices to Microsoft Defender for Endpoint vi
    - Grant access: Block or require MFA
 3. Add device risk as a condition and set threshold (e.g., medium or higher)
 
+![image](https://github.com/user-attachments/assets/e4bd51ab-1e69-42a4-938a-838e3d33cd80)
+![image](https://github.com/user-attachments/assets/fac0e175-568c-4cf6-82a6-530f91a1365b)
+
 ---
 
 ### **Step 9: Monitor Device Risk & Take Action**
@@ -263,6 +266,8 @@ Following successful onboarding of devices to Microsoft Defender for Endpoint vi
 2. Filter devices by **Risk Level**
 3. Review security alerts, device timeline, and action center
 4. Take action (e.g., isolate device, trigger automated investigation)
+
+![image](https://github.com/user-attachments/assets/f5e02a68-d190-48ae-9108-0888b4afb841)
 
 ---
 
