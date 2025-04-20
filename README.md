@@ -173,10 +173,14 @@ This lab walks through the complete process of setting up modern device manageme
 
 ![image](https://github.com/user-attachments/assets/4ed8c3c8-7891-42a2-8974-eea819a09f1a)
 ![image](https://github.com/user-attachments/assets/64eb9f03-164a-47c2-b4e0-372b1a48a92f)
+![image](https://github.com/user-attachments/assets/99307ffe-e536-4899-801f-647139ee4927)
 
 2. Review reports for:
    - Compliant / Non-compliant devices
    - Reasons for non-compliance
+  
+![image](https://github.com/user-attachments/assets/b2d68df8-3c0b-42d5-8376-8b8e7c404d29)
+
 3. Export reports if necessary
 
 ---
