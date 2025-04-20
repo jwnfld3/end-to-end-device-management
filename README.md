@@ -28,7 +28,7 @@ This lab walks through the complete process of setting up modern device manageme
 
 ---
 
-### 🔹 **Step 1: Enable Microsoft Intune Enrollment in Entra ID**
+### **Step 1: Enable Microsoft Intune Enrollment in Entra ID**
 
 **Definition:** Enabling device registration ensures that Windows devices can join or register with Microsoft Entra ID and become managed by Intune.
 
@@ -44,7 +44,7 @@ This lab walks through the complete process of setting up modern device manageme
 
 ---
 
-### 🔹 **Step 2: Create Intune Enrollment Profile**
+### **Step 2: Create Intune Enrollment Profile**
 
 **Definition:** Enrollment profiles configure the experience users get when enrolling their devices into Intune.
 
@@ -116,7 +116,7 @@ This lab walks through the complete process of setting up modern device manageme
 
 ---
 
-### 🔹 **Step 3: Configure Compliance Policies**
+### **Step 3: Configure Compliance Policies**
 
 **Definition:** Compliance policies define the rules that a device must meet to be considered compliant.
 
@@ -140,7 +140,7 @@ This lab walks through the complete process of setting up modern device manageme
 
 ---
 
-### 🔹 **Step 4: Configure Update Rings (System Patching)**
+### **Step 4: Configure Update Rings (System Patching)**
 
 **Definition:** Update rings manage the deployment of Windows updates and patches.
 
@@ -165,7 +165,7 @@ This lab walks through the complete process of setting up modern device manageme
 
 ---
 
-### 🔹 **Step 5: Monitor Device Compliance**
+### **Step 5: Monitor Device Compliance**
 
 **Definition:** This step checks which devices are compliant and which are not, using dashboards.
 
@@ -185,20 +185,52 @@ This lab walks through the complete process of setting up modern device manageme
 
 ---
 
-### 🔹 **Step 6: Integrate Microsoft Defender for Endpoint**
+### **Step 6: Integrate Microsoft Defender for Endpoint**
 
 **Definition:** This integration brings in real-time threat and device risk scoring from Defender into Intune.
 
 1. Navigate to **Microsoft 365 Defender** > **Settings** > **Endpoints** > **Onboarding**
+
+![image](https://github.com/user-attachments/assets/60927fef-cf7f-4986-9fdc-1e4d755f1a06)
+![image](https://github.com/user-attachments/assets/7d7d41e1-9929-4365-8305-5ea9321c87d6)
+
 2. Choose platform: **Windows 10/11**
 3. Select deployment method: **Microsoft Intune**
 4. Download onboarding package and deploy using Intune
+
+![image](https://github.com/user-attachments/assets/bf8b8adb-2136-4f02-8834-4d9142768c5f)
+
+### Step 7: Onboard Devices to Microsoft Defender for Endpoint via Intune Script
+
+In the Intune admin center: [https://endpoint.microsoft.com](https://endpoint.microsoft.com)
+
+1. Navigate to:  
+   **Devices** > **Windows** > **Scripts**
+
+2. Click **+ Add**
+
+3. **Script type**: Select **PowerShell**
+
+4. Upload the `.cmd` file from the onboarding package  
+   > Although it's a `.cmd` file, it functions like a PowerShell script for deployment.
+
+5. Assign the script to the device group used in the lab.
+
+---
+
+Once assigned, the script will execute on devices in the targeted group. Upon successful onboarding:
+
+- Devices will begin reporting to **Microsoft Defender for Endpoint**
+- Visibility will appear in **Microsoft 365 Defender** under:  
+  **Endpoints** > **Device inventory**
+
+
 5. In Intune, navigate to **Endpoint security** > **Microsoft Defender Antivirus**
 6. Ensure protection settings are enabled (real-time, cloud, sample submission)
 
 ---
 
-### 🔹 **Step 7: Configure Conditional Access Based on Device Risk**
+### **Step 8: Configure Conditional Access Based on Device Risk**
 
 **Definition:** Conditional Access can block or allow access based on real-time risk scores from Defender.
 
@@ -212,7 +244,7 @@ This lab walks through the complete process of setting up modern device manageme
 
 ---
 
-### 🔹 **Step 8: Monitor Device Risk & Take Action**
+### **Step 9: Monitor Device Risk & Take Action**
 
 1. Open **Microsoft 365 Defender** > **Endpoint** > **Device inventory**
 2. Filter devices by **Risk Level**
@@ -221,7 +253,7 @@ This lab walks through the complete process of setting up modern device manageme
 
 ---
 
-### 🔹 **Step 9: Protect the Tenant with Risk Score Recommendations**
+### **Step 10: Protect the Tenant with Risk Score Recommendations**
 
 **Definition:** Automatically enforce best practices using Microsoft Defender recommendations.
 
