@@ -163,6 +163,9 @@ This lab walks through the complete process of setting up modern device manageme
 ![image](https://github.com/user-attachments/assets/4a777351-19ac-46e9-b59b-61d330831211)
 ![image](https://github.com/user-attachments/assets/0f4ff3c6-2d76-4461-b45f-ec6261d138de)
 
+![image](https://github.com/user-attachments/assets/7cd84096-bd73-49c5-882f-e8c0a70fa409)
+![image](https://github.com/user-attachments/assets/568420e6-e043-401b-84dd-13b5b7359fb7)
+
 ---
 
 ### **Step 5: Monitor Device Compliance**
